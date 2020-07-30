@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <NoWarn>1701;1702;1591</NoWarn>
+    
+    <PackageId>Noted</PackageId>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jpobst/noted</PackageProjectUrl>
+    <Description>GitHub automated release notes generator</Description>
+    <PackageTags>Release Notes GitHub</PackageTags>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>noted</ToolCommandName>
+    <PackageOutputPath>../nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Octokit" Version="0.48.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20371.2" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.20371.2" />
+  </ItemGroup>
+
+</Project>
