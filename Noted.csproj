@@ -14,7 +14,7 @@
     <PackageTags>Release Notes GitHub</PackageTags>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>noted</ToolCommandName>
-    <PackageOutputPath>../nupkg</PackageOutputPath>
+    <PackageOutputPath>nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
